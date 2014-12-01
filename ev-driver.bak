@@ -226,7 +226,7 @@ Wire Wire Line
 	4200 4200 4200 4550
 Connection ~ 4200 4550
 Wire Wire Line
-	1700 3500 3400 3500
+	1500 3500 3400 3500
 Wire Wire Line
 	6300 4450 9900 4450
 Text Label 2750 3500 0    60   ~ 0
@@ -288,10 +288,6 @@ Wire Wire Line
 	4650 3500 4650 3400
 Wire Wire Line
 	5100 3500 4650 3500
-Text HLabel 1700 3500 0    60   Input ~ 0
-ctrl_input_%X%
-Text HLabel 1700 3600 0    60   Input ~ 0
-ctrl_input_common
 Wire Notes Line
 	10250 2400 10250 4600
 Wire Notes Line
@@ -308,4 +304,17 @@ Wire Wire Line
 	8200 3900 8200 4550
 Wire Wire Line
 	8200 4550 9900 4550
+Text GLabel 1500 3350 1    60   Input ~ 0
+ctrl_input_%X%
+Wire Wire Line
+	1500 3350 1500 3500
+Text GLabel 10450 3650 1    60   Input ~ 0
+load_output_p_%X%
+Wire Wire Line
+	10450 3700 10450 4150
+Wire Wire Line
+	10450 4150 9550 4150
+Wire Wire Line
+	9550 4150 9550 4450
+Connection ~ 9550 4450
 $EndSCHEMATC
