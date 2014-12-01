@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by Cvpcb (2014-11-17 BZR 5290)-product   date = Lundi 01 décembre 2014 11:16:03
+
+BeginCmp
+TimeStamp = /546BCA7B;
+Reference = C1_%X%1;
+ValeurCmp = 0.1uF;
+IdModule  = alain:C_Radial_15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /546E1621;
+Reference = D1_%X%1;
+ValeurCmp = 1N4002;
+IdModule  = Discret:D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /547C47CB;
+Reference = D2_%X%1;
+ValeurCmp = LED;
+IdModule  = alain:LED_ThroughHole_SideView;
+EndCmp
+
+BeginCmp
+TimeStamp = /546BC4E7;
+Reference = IC1_%X%1;
+ValeurCmp = MOC3042M;
+IdModule  = Sockets_DIP:DIP-6__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /547A0F95;
+Reference = P1_%X%1;
+ValeurCmp = CONN_01X02;
+IdModule  = alain:Bornier_1x02_5.08mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /546DE904;
+Reference = Q1_%X%1;
+ValeurCmp = BC237;
+IdModule  = Discret:TO92-EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /547A02D4;
+Reference = Q2_%X%1;
+ValeurCmp = TRIAC_BTA2;
+IdModule  = alain:TO-227-Socket;
+EndCmp
+
+BeginCmp
+TimeStamp = /546DB241;
+Reference = R1_%X%1;
+ValeurCmp = 240R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /546DEA33;
+Reference = R2_%X%1;
+ValeurCmp = 47R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /546BCC1F;
+Reference = R3_%X%1;
+ValeurCmp = 360R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /546DCB05;
+Reference = R4_%X%1;
+ValeurCmp = 330R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /546BCAC0;
+Reference = R5_%X%1;
+ValeurCmp = 47R;
+IdModule  = Discret:R3;
+EndCmp
+
+EndListe

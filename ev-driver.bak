@@ -1,0 +1,311 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:w_transistor
+LIBS:triac_bta2
+LIBS:ev-driver-main-board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "Pilote d'électrovanne pour OAF"
+Date "20/11/2014"
+Rev "R1"
+Comp "Alain CELESTE"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MOC3042M IC1_%X%1
+U 1 1 546BC4E7
+P 5450 3600
+F 0 "IC1_%X%1" H 5240 3790 40  0000 C CNN
+F 1 "MOC3042M" H 5540 3410 40  0000 C CNN
+F 2 "Sockets_DIP:DIP-6__300" H 5250 3420 30  0001 C CIN
+F 3 "" H 5450 3600 60  0000 C CNN
+F 4 "MOC3042M-ND, 1212-1002-ND" H 5450 3600 60  0001 C CNN "DigiKey"
+F 5 "0,58640 ; 0,26400" H 5450 3600 60  0001 C CNN "Price(<100pcs)"
+	1    5450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1_%X%1
+U 1 1 546BCA7B
+P 7550 3150
+F 0 "C1_%X%1" H 7550 3250 40  0000 L CNN
+F 1 "0.1uF" H 7556 3065 40  0000 L CNN
+F 2 "alain:C_Radial_15mm" H 7588 3000 30  0001 C CNN
+F 3 "" H 7550 3150 60  0000 C CNN
+F 4 "399-5962-ND" H 7550 3150 60  0001 C CNN "DigiKey"
+F 5 "0,89800" H 7550 3150 60  0001 C CNN "Price(<100pcs)"
+	1    7550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5_%X%1
+U 1 1 546BCAC0
+P 7550 3800
+F 0 "R5_%X%1" V 7630 3800 40  0000 C CNN
+F 1 "47R" V 7557 3801 40  0000 C CNN
+F 2 "Discret:R3" V 7480 3800 30  0001 C CNN
+F 3 "" H 7550 3800 30  0000 C CNN
+	1    7550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3_%X%1
+U 1 1 546BCC1F
+P 5950 2900
+F 0 "R3_%X%1" V 6030 2900 40  0000 C CNN
+F 1 "360R" V 5957 2901 40  0000 C CNN
+F 2 "Discret:R3" V 5880 2900 30  0001 C CNN
+F 3 "" H 5950 2900 30  0000 C CNN
+F 4 "0.25W" V 5950 2900 60  0001 C CNN "PWR"
+F 5 "CF12JT360RCT-ND" V 5950 2900 60  0001 C CNN "DigiKey"
+F 6 "0,04520" V 5950 2900 60  0001 C CNN "Price(<100pcs)"
+	1    5950 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1_%X%1
+U 1 1 546DB241
+P 3650 3500
+F 0 "R1_%X%1" V 3550 3500 40  0000 C CNN
+F 1 "240R" V 3657 3501 40  0000 C CNN
+F 2 "Discret:R3" V 3580 3500 30  0001 C CNN
+F 3 "" H 3650 3500 30  0000 C CNN
+F 4 "RSMF1JT240RCT-ND" V 3650 3500 60  0001 C CNN "DigiKey"
+F 5 "0,1296" V 3650 3500 60  0001 C CNN "Price(<100pcs)"
+	1    3650 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4_%X%1
+U 1 1 546DCB05
+P 6300 4200
+F 0 "R4_%X%1" V 6380 4200 40  0000 C CNN
+F 1 "330R" V 6307 4201 40  0000 C CNN
+F 2 "Discret:R3" V 6230 4200 30  0001 C CNN
+F 3 "" H 6300 4200 30  0000 C CNN
+F 4 "0.25W" V 6300 4200 60  0001 C CNN "PWR"
+F 5 "CF12JT330RCT-ND" V 6300 4200 60  0001 C CNN "DigiKey"
+F 6 "0,04520" V 6300 4200 60  0001 C CNN "Price(<100pcs)"
+	1    6300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC237 Q1_%X%1
+U 1 1 546DE904
+P 4750 3700
+F 0 "Q1_%X%1" H 4950 3600 50  0000 C CNN
+F 1 "BC237" H 4650 3550 50  0000 C CNN
+F 2 "Discret:TO92-EBC" H 4940 3700 30  0001 C CNN
+F 3 "" H 4750 3700 60  0000 C CNN
+F 4 "BC237BGOS-ND" H 4750 3700 60  0001 C CNN "DigiKey"
+F 5 "0,17640" H 4750 3700 60  0001 C CNN "Price(<100pcs)"
+	1    4750 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R2_%X%1
+U 1 1 546DEA33
+P 5100 4150
+F 0 "R2_%X%1" V 5180 4150 40  0000 C CNN
+F 1 "47R" V 5107 4151 40  0000 C CNN
+F 2 "Discret:R3" V 5030 4150 30  0001 C CNN
+F 3 "" H 5100 4150 30  0000 C CNN
+F 4 "CF12JT47R0CT-ND" V 5100 4150 60  0001 C CNN "DigiKey"
+F 5 "0,04520" V 5100 4150 60  0001 C CNN "Price(<100pcs)"
+	1    5100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3600 3250 4550
+Connection ~ 4650 4550
+Wire Wire Line
+	3250 4550 5100 4550
+Wire Wire Line
+	5100 3700 4950 3700
+Wire Wire Line
+	5100 3900 5100 3700
+Wire Wire Line
+	5100 4550 5100 4400
+Wire Wire Line
+	4650 3900 4650 4550
+Connection ~ 7550 4450
+Wire Wire Line
+	7550 4050 7550 4450
+Connection ~ 6900 4450
+Wire Wire Line
+	5950 3900 6700 3900
+Wire Wire Line
+	5950 3700 5950 3900
+Wire Wire Line
+	5800 3700 5950 3700
+Wire Wire Line
+	5950 2650 5950 2450
+Wire Wire Line
+	5950 3500 5950 3150
+Wire Wire Line
+	7550 3350 7550 3550
+Connection ~ 7550 2450
+Wire Wire Line
+	7550 2950 7550 2450
+Connection ~ 6900 2450
+Wire Wire Line
+	8000 3400 10250 3400
+Wire Wire Line
+	8000 2450 8000 3400
+Wire Wire Line
+	6900 3950 6900 4450
+Wire Wire Line
+	1700 3600 3250 3600
+Wire Wire Line
+	5950 2450 8000 2450
+Wire Wire Line
+	6900 3650 6900 2450
+Wire Wire Line
+	5800 3500 5950 3500
+Wire Notes Line
+	7200 2750 7800 2750
+Wire Notes Line
+	7800 2750 7800 4300
+Wire Notes Line
+	7800 4300 7200 4300
+Wire Notes Line
+	7200 4300 7200 2750
+Text Notes 7300 3700 1    60   ~ 0
+OPTIONNAL
+$Comp
+L DIODE D1_%X%1
+U 1 1 546E1621
+P 4200 4000
+F 0 "D1_%X%1" H 4200 4100 40  0000 C CNN
+F 1 "1N4002" H 4200 3900 40  0000 C CNN
+F 2 "Discret:D3" H 4200 4000 60  0001 C CNN
+F 3 "" H 4200 4000 60  0000 C CNN
+F 4 "1N4002DICT-ND" H 4200 4000 60  0001 C CNN "DigiKey"
+F 5 "0,10320" H 4200 4000 60  0001 C CNN "Price(<100pcs)"
+	1    4200 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 3400 4200 3800
+Wire Wire Line
+	4200 4200 4200 4550
+Connection ~ 4200 4550
+Wire Wire Line
+	1700 3500 3400 3500
+Wire Wire Line
+	6300 4450 9900 4450
+Text Label 2750 3500 0    60   ~ 0
+ctrl_input_%X%
+Text Label 2750 3600 0    60   ~ 0
+ctrl_input_common
+Text Label 8050 3400 0    60   ~ 0
+main_p_common
+Text Label 8350 4450 0    60   ~ 0
+load_output_p_%X%
+$Comp
+L TRIAC_BTA2 Q2_%X%1
+U 1 1 547A02D4
+P 6900 3800
+F 0 "Q2_%X%1" H 6950 4000 60  0000 C CNN
+F 1 "TRIAC_BTA2" H 6900 3600 60  0000 C CNN
+F 2 "alain:TO-227-Socket" H 6900 3800 60  0001 C CNN
+F 3 "" H 6900 3800 60  0000 C CNN
+F 4 "568-9786-5-ND" H 6900 3800 60  0001 C CNN "DigiKey"
+F 5 "0,5136" H 6900 3800 60  0001 C CNN "Price(<100pcs)"
+	1    6900 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P1_%X%1
+U 1 1 547A0F95
+P 10100 4500
+F 0 "P1_%X%1" H 10100 4650 50  0000 C CNN
+F 1 "CONN_01X02" V 10200 4500 50  0001 C CNN
+F 2 "alain:Bornier_1x02_5.08mm" H 10100 4500 60  0001 C CNN
+F 3 "" H 10100 4500 60  0000 C CNN
+	1    10100 4500
+	1    0    0    -1  
+$EndComp
+Text Label 9200 4550 0    60   ~ 0
+main_n_common
+Wire Wire Line
+	6300 3950 6300 3900
+Connection ~ 6300 3900
+$Comp
+L LED D2_%X%1
+U 1 1 547C4C0C
+P 4450 3400
+F 0 "D2_%X%1" H 4450 3500 50  0000 C CNN
+F 1 "LED" H 4450 3300 50  0000 C CNN
+F 2 "alain:LED_ThroughHole_SideView" H 4450 3400 60  0001 C CNN
+F 3 "" H 4450 3400 60  0000 C CNN
+	1    4450 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3500 4000 3500
+Wire Wire Line
+	4000 3500 4000 3400
+Wire Wire Line
+	4000 3400 4250 3400
+Connection ~ 4200 3400
+Wire Wire Line
+	4650 3500 4650 3400
+Wire Wire Line
+	5100 3500 4650 3500
+Text HLabel 1700 3500 0    60   Input ~ 0
+ctrl_input_%X%
+Text HLabel 1700 3600 0    60   Input ~ 0
+ctrl_input_common
+Wire Notes Line
+	10250 2400 10250 4600
+Wire Notes Line
+	10250 4600 1750 4600
+Wire Notes Line
+	1750 4600 1750 2400
+Wire Notes Line
+	1750 2400 10250 2400
+Text Notes 8800 2500 0    60   ~ 0
+ev-driver-macro
+Wire Wire Line
+	10250 3900 8200 3900
+Wire Wire Line
+	8200 3900 8200 4550
+Wire Wire Line
+	8200 4550 9900 4550
+$EndSCHEMATC
